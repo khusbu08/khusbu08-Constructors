@@ -32,6 +32,8 @@ public class Player {
      */
     public Player(String playerName){
 
+        this.playerName = playerName;
+        this.level = 1;
     }
 
     /**
@@ -49,6 +51,9 @@ public class Player {
      */
     public Player(String playerName, int level){
 
+        this.playerName = playerName;
+        this.level = level;
     }
+
 
 }
